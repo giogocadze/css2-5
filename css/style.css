@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navContainer {
+    background-color: #FBF9FF;
+    height: 72px;
+    padding: 12px 32px;
+}
+
+#photobox {
+    display: inline-block;
+    width: 40%;
+}
+
+#photo {
+    vertical-align: middle;
+}
+
+#Navigation {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #323232;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 30%;
+}
+
+#contactButton {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 8px;
+    border: 1px solid #6941C6;
+    background: #6941C6;
+    padding: 8px 16px;
+}
+
+#contact {
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #6941C6;
+}
+
+#mainContainer {
+    padding: 96px;
+    background-color: #F1E8FF;
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 94px;
+
+}
+
+#paraghrap {
+    color: #181D27;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+#Pricing {
+    text-align: center;
+}
+
+#freePlan {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#subscription {
+    color: #535862;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#tenMonthBundle {
+    padding: 32px 40px;
+    background-color: #FFFFFF;
+    width: 373px;
+    display: inline-block;
+    margin-top: 32px;
+}
+
+#planButton {
+    text-align: center;
+
+}
+
+#basic {
+    color: #6941C6;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid #E9D7FE;
+    padding: 4px 12px;
+    border-radius: 40px;
+    background: #F9F5FF;
+}
+
+#tenMonths {
+    color: black;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#popularPlan {
+    text-align: center;
+    margin-top: 8px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#getButton {
+    text-align: center;
+    margin-top: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #7F56D9;
+    border-radius: 8px;
+
+}
+
+#started {
+    color: #FFF;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background: #7F56D9;
+    padding: 12px 18px;
+
+}
+
+#salesButton {
+    text-align: center;
+    margin-top: 12px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    border-radius: 8px;
+}
+
+#sales {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-size: 600;
+    border: none;
+    background: #FFF;
+    padding: 12px 18px;
+}
+
+#border {
+    height: 1px;
+    background: #E9EAEB;
+    margin-top: 32px;
+}
+
+#basicFeatures {
+    margin-top: 33px;
+
+}
+
+#checkBox {
+    vertical-align: middle;
+}
+
+#allBasicFeatures {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+#basicReporting {
+    margin-top: 16px;
+}
+
+#reportingAnalytics {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+#analyticscheckbox {
+    vertical-align: middle;
+}
+
+#individualUsers {
+    margin-top: 16px;
+}
+
+#usersCheckbox {
+    vertical-align: middle;
+
+}
+
+#usersParaghrap {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+#useranalytics {
+    margin-top: 16px;
+}
+
+#individualUser {
+    vertical-align: middle;
+}
+
+#twentyUsers {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+#basicSupport {
+    margin-top: 16px;
+
+}
+
+#chatAndEmailCheckbox {
+    vertical-align: middle;
+}
+
+#emailAndChatSupport {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+#twentyDollarBundle {
+    padding: 32px 40px;
+    background-color: #FFFFFF;
+    width: 373px;
+    display: inline-block;
+    margin-bottom: -41px;
+    height: 564px;
+    margin-left: 32px;
+}
+
+#card {
+    padding: 32px 40px;
+    background-color: #FFFFFF;
+    width: 373px;
+    display: inline-block;
+    margin-bottom: -41px;
+    height: 564px;
+    margin-left: 32px;
+}
+
+#plan {
+    text-align: center;
+
+}
+
+#Business {
+    color: #6941C6;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid #E9D7FE;
+    padding: 4px 12px;
+    border-radius: 40px;
+    background: #F9F5FF;
+
+}
+
+#twentyMonths {
+    color: black;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#GrowingTeams {
+    text-align: center;
+    margin-top: 8px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#getButtonn {
+    text-align: center;
+    margin-top: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #7F56D9;
+    border-radius: 8px;
+
+}
+
+#startedd {
+    color: #FFF;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background: #7F56D9;
+    padding: 12px 18px;
+
+}
+
+#salesButtonn {
+    text-align: center;
+    margin-top: 12px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    border-radius: 8px;
+}
+
+#saless {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-size: 600;
+    border: none;
+    background: #FFF;
+    padding: 12px 18px;
+
+}
+
+#borderr {
+    height: 1px;
+    background: #E9EAEB;
+    margin-top: 32px;
+}
+
+#integrations {
+    margin-top: 32px;
+
+}
+
+#inegrationss {
+    vertical-align: middle;
+}
+
+#intergrationsss {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#advanced {
+    vertical-align: middle;
+}
+
+#reportingAnalytics {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#individualUserss {
+    margin-top: 16px;
+
+}
+
+#usersCheckboxs {
+    vertical-align: middle;
+}
+
+#userssParaghrap {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#dataUser {
+    margin-top: 16px;
+}
+
+#dataIndividualUser {
+    vertical-align: middle;
+}
+
+#userData {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#priority {
+    margin-top: 16px;
+}
+
+#priorityChat {
+    vertical-align: middle;
+}
+
+#priorityChatAndEmail {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#enterprise {
+    color: #6941C6;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border: 1px solid #E9D7FE;
+    padding: 4px 12px;
+    border-radius: 40px;
+    background: #F9F5FF;
+
+}
+
+#fortyMonths {
+    color: black;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+#advancedFeatures {
+    text-align: center;
+    margin-top: 8px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#getButtonnn {
+    text-align: center;
+    margin-top: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #7F56D9;
+    border-radius: 8px;
+
+}
+
+#starteddd {
+    color: #FFF;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background: #7F56D9;
+    padding: 12px 18px;
+}
+
+#salesButtonnn {
+    text-align: center;
+    margin-top: 12px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    border-radius: 8px;
+}
+
+#salesss {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-size: 600;
+    border: none;
+    background: #FFF;
+    padding: 12px 18px;
+
+}
+
+#borderrr {
+    height: 1px;
+    background: #E9EAEB;
+    margin-top: 32px;
+}
+
+#custom {
+    margin-top: 32px;
+}
+
+#customFields {
+    vertical-align: middle;
+}
+
+#AdvancedCustomFields {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#AuditLog {
+    margin-top: 16px;
+}
+
+#dataHistory {
+    vertical-align: middle;
+}
+
+#auditLogAndDataHistory {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#individualUsers {
+    margin-top: 16px;
+}
+
+#unlimitedUsers {
+    vertical-align: middle;
+}
+
+#unlimitedIndividualUsers {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#data {
+    margin-top: 16px;
+}
+
+#unlimitedIndvidual {
+    vertical-align: middle;
+}
+
+#unlimitedIdividualData {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#priorityy {
+    margin-top: 16px;
+}
+
+#priorityService {
+    vertical-align: middle;
+}
+
+#priorityServiceAndPersonalize {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
